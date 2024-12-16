@@ -16,7 +16,6 @@ public class Trade extends WebSocket_client {
     }
     public void decodage(String json){
         Record_trade response = new Gson().fromJson(json, Record_trade.class);
-        //System.err.println("taux de change" + response.p());
         System.err.println("""
                 --------------------------------------------
                 TAUX DE CHANGE EURO -> DOLLAR US: %s
