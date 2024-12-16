@@ -1,0 +1,4 @@
+{
+  "trade":"wss://stream.binance.com:9443/ws/eurusdt@trade",
+  "crypto":"wss://ws.coincap.io/prices?assets=bitcoin,ethereum"
+}
